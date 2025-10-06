@@ -37,7 +37,7 @@ function Nav() {
       {e}
     </NavLink>
   ))}
-  <Link className="px-4 py-2 ml-6 hidden  sm:hidden lg:block text-white bg-blue-600 text-lg md:text-base  rounded-md hover:bg-blue-700 duration-200">
+  <Link to={'/courses'} className="px-4 py-2 ml-6 hidden  sm:hidden lg:block text-white bg-blue-600 text-lg md:text-base  rounded-md hover:bg-blue-700 duration-200">
             Start Learning
           </Link>
 </div>
@@ -62,7 +62,7 @@ function Nav() {
           isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"
         }`}
       >
-        {["Home", "About", "Courses", "Contact"].map((e, i) => (
+        {["Home", "About", "Courses", "Fees", "Contact"].map((e, i) => (
           <NavLink style={(e)=>{
       return {
         fontWeight: e.isActive ? 600 : '',

@@ -75,7 +75,7 @@ const mission = [
             },
           ]
   return (
-    <div className="w-full mt-[9vh] sm:mt-[12vh] md:mt-[14vh] lg:mt-[15vh] overflow-hidden">
+    <div className="w-full mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] overflow-hidden">
        {/* ✅ SEO Helmet */}
       <Helmet>
         <title>About Us | Alibros Learning Institute</title>
@@ -133,9 +133,9 @@ const mission = [
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          src="https://images.unsplash.com/photo-1561089489-f13d5e730d72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29kaW5nJTIwY2xhc3N8ZW58MHx8MHx8fDA%3D"
+          src="/assets/aboutclass.png"
           alt="Our Story"
-          className="rounded-lg shadow-lg w-full md:w-1/2 object-cover"
+          className="rounded-lg shadow-lg  w-full md:w-1/2 object-cover"
         />
         <motion.div
           initial={{ opacity: 0, x: 80 }}
