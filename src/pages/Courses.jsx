@@ -130,7 +130,7 @@ const title = "Courses | Alibros Learning Institute";
   ];
 
   return (
-    <motion.div transition={{delay:0.2,opacity:0}} className="mt-[9vh] sm:mt-[12vh] md:mt-[14vh] lg:mt-[15vh] ">
+    <motion.div transition={{delay:0.2,opacity:0}} className="mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] ">
       {/* ✅ Meta tags */}
       <Helmet>
         <title>{title}</title>

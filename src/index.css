@@ -28,3 +28,29 @@
   opacity: 1.0;
   transform: rotate(3deg) translate(0px, -4px);
 }
+/* Animation for the Title, Paragraph, and Button */
+@keyframes modernSlideIn {
+  /* Starts slightly below, completely transparent, and blurred */
+  0% { transform: translateY(20px); opacity: 0; filter: blur(4px); }
+  /* Ends in final position, fully opaque, and sharp */
+  100% { transform: translateY(0); opacity: 1; filter: blur(0); }
+}
+
+/* 1. Title (Starts first) */
+.animate-content-in { 
+  animation: modernSlideIn 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s forwards; 
+}
+/* 2. Paragraph (Slight delay) */
+.animate-content-in-delay { 
+  animation: modernSlideIn 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s forwards; 
+}
+/* 3. Button (Last to appear) */
+.animate-content-in-delay-2 { 
+  animation: modernSlideIn 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s forwards; 
+}
+
+/* Animation for the Progress Bar */
+@keyframes progressBarAnimate {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}

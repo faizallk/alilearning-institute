@@ -11,7 +11,7 @@ const fadeUp = {
 
 export default function Fees() {
  
-  const feePlans = [
+const feePlans = [
   {
     title: "One-Time Payment",
     price: "₹28,000",
@@ -20,22 +20,25 @@ export default function Fees() {
       "Full course access",
       "Lifetime support",
       "Certificate included",
-      "Save extra ₹2,000 on total fees",
+      "No registration fees",
+      "Save extra ₹3,000 on total fees",
     ],
   },
   {
     title: "Installment Plan",
-    price: "₹10,000 (Admission) + ₹10,000 x 2 months",
+    price: "₹31,000",
     description:
-      "Pay ₹10,000 at admission, then the remaining amount in 2 easy monthly installments.",
+      "Pay ₹11,000 at admission (₹10,000 course fee + ₹1,000 registration fee), then pay ₹10,000 per month for the next 2 months.",
     benefits: [
       "Full course access from day 1",
       "Flexible 3-part payment option",
+      "₹10,000 per month for next 2 months",
       "Certificate after completion",
-      "No hidden charges",
+      "Admission fees applicable",
     ],
   },
 ];
+
 
 
   const refundPolicy = [
@@ -43,7 +46,7 @@ export default function Fees() {
   ];
 
   return (
-    <motion.div transition={{ delay: 0.2, opacity: 0 }} className="mt-[9vh] sm:mt-[12vh] md:mt-[14vh] lg:mt-[15vh] ">
+    <motion.div transition={{ delay: 0.2, opacity: 0 }} className="mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] ">
     <Helmet>
         {/* Title Tag */}
         <title>Fees & Payment | Alibros Learning Institute</title>
@@ -125,7 +128,7 @@ export default function Fees() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-zinc-600 mt-3"
           >
-            Pay at once or choose easy installments
+            Choose a payment plan that fits your convenience. Whether you prefer to save more with a one-time payment or go with our easy installment option, you’ll get full course access, lifetime support, and certification — all with 100% satisfaction and success assurance.
           </motion.p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

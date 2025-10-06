@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
-import { Link } from 'react-router-dom'
 import ContactSection from '../components/ContactSection';
 import { Helmet } from 'react-helmet-async';
 function Contact() {
@@ -33,7 +32,7 @@ document.title = "Alibros Learning Institute | Contact"
   };
 
   return (
-      <motion.div transition={{delay:0.2,opacity:0}} className="mt-[9vh] sm:mt-[12vh] md:mt-[14vh] lg:mt-[15vh] ">
+      <motion.div transition={{delay:0.2,opacity:0}} className="mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] ">
        <Helmet>
         {/* Title */}
         <title>Contact Us | Alibros Learning Institute</title>

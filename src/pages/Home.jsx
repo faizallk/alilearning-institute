@@ -168,7 +168,7 @@ document.title = "Alibros Learning Institute"
   ];
 
   return (
-    <div className="w-full min-h-screen bg-white overflow-x-hidden mt-[9vh] sm:mt-[12vh] md:mt-[14vh] lg:mt-[15vh] ">
+    <div className="w-full min-h-screen bg-white overflow-x-hidden mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] ">
    {/* ✅ Meta tags */}
       <Helmet>
         <title>{title}</title>

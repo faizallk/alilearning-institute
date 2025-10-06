@@ -38,7 +38,7 @@ function CourseDetails() {
   return (
    
     <motion.div
-      className="w-full min-h-screen px-5 mt-[9vh] sm:mt-[13vh] md:mt-[10vh] lg:mt-[15vh] "
+      className="w-full min-h-screen px-5 mt-[9vh] sm:mt-[12vh] md:mt-[8vh] lg:mt-[15vh] "
       variants={containerVariants}
       initial="hidden"
       animate="visible"
